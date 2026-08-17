@@ -1,0 +1,146 @@
+/* Shared styling section - keep in mind anything in this section applies to ALL html files */
+
+/*Navigation bar*/
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(13, 55, 98);
+    color: rgb(174, 169, 169);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
+}
+
+body
+{
+    background-color: rgb(228, 236, 246);
+}
+
+h1 {
+    color: rgb(173, 216, 230);
+    text-align: center;
+    margin-top: 0px;
+    background-color: rgb(48, 107, 167);
+}
+
+h3 {
+    color: rgb(19, 63, 108);
+    text-align: center;
+    background-color: lightblue;
+}
+
+.inline-block-heading {
+    display: inline-block;
+    padding: 5px;
+}
+
+.heading-container {
+    text-align: center;
+}
+
+#para1{
+    margin: 10px 200px;
+    font-size: 150%;
+    text-align: justify;
+}
+
+#para2{
+    text-align: justify;
+}
+
+
+/*Footer*/
+
+.site-footer {
+    background-color: rgb(54, 73, 90);
+    color: rgb(206, 227, 252);
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.footer-subheadings h{
+    column-count: 3;
+    font-size: 125%;
+}
+
+.footer-text{
+    column-count: 3;
+    column-gap: 50px;
+    font-size: 80%;
+    padding-bottom: 40px;
+
+}
+
+footer img {
+    width: 80%;
+    padding-left: 60px;
+}
+
+
+
+/* Homepage only styling */
+
+.column1, .column2, .column3 { 
+    background-color: rgb(233, 240, 248);
+    border: 2px solid rgb(174, 169, 170);
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block;
+    width: 25%;
+}
+
+
+.gameimages 
+{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    float: center;
+    align-items: stretch;
+}
+
+
+.learnmore {
+    width: 50%;
+}
+
+
+.row {
+    position: relative;
+    left: 80px;
+}
+
+
+
+/* Individual page styling - when styling an individual page, remember to specify the class to only change that page*/
+
+/* Fruit Blasters CSS only - remember div class="Fruit" */
+.Fruit .hero {
+background-color: pink;
+margin: 40px;
+padding: 40px;
+border-radius: 15px;
+}
+
+/* Pewter Survival CSS only */
+
+
+
+/* Cyber Click Challenge CSS only */
+
+
